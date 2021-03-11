@@ -4,3 +4,73 @@
     background: #fff;
     padding: 50px 0 50px 0;
 }
+
+.hero1 h3 {
+    font-family: "Pavanam";
+    font-size: 43px;
+    font-weight: bolder;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    color: #161C2D;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero1 h3 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+}
+
+.hero1 span {
+    font-family: "Pavanam";
+    font-size: 43px;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    color: #335EEA;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero1 span {
+        font-size: 20px;
+        line-height: 21px;
+    }
+}
+
+.hero1 p {
+    max-width: 500px;
+    font-family: "Pavanam";
+    font-size: 19px;
+    line-height: 30px;
+    color: #869AB8;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero1 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.hero1 input[type="email"] {
+    background: #F1F4F8;
+    border-radius: 6px;
+    padding: .4em .3em;
+    border: 1px solid #F1F4F8;
+    width: 40%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero1 input[type="email"] {
+        padding: .4em .3em;
+    }
+}
+
+.hero1 .btn {
+    background: #335EEA;
+    border-radius: 6px;
+    padding: 14px 20px;
+    font-family: "Pavanam";
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+}

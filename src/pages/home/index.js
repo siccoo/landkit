@@ -15,7 +15,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-md-6 align-self-center">
                                 <h3>Chat with <span>friends</span>. <br/>Watch funny content.</h3>
-                                <p>Forward-thinking businesses use Timekit to imagine, design and manage the perfect scheduling flows to imagine, design and manage.</p>
+                                <p>Forward-thinking businesses use Timekit to imagine, <br/>design and manage the perfect scheduling flows to <br />imagine, design and manage.</p>
                                 <div className="input-group">
                                     <input type="email" name="email" id="email" className="" placeholder="(123) 4567-8901" />
                                     <span className="input-group-btn">

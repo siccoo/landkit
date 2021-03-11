@@ -1,5 +1,6 @@
 import React from 'react';
 import Topbar from "../../components/navbar/index";
+import "./style.css";
 
 import Mobile from "../../images/Phones.svg"
 
@@ -13,7 +14,14 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 align-self-center">
-
+                                <h3>Chat with <span>friends</span>. <br/>Watch funny content.</h3>
+                                <p>Forward-thinking businesses use Timekit to imagine, design and manage the perfect scheduling flows to imagine, design and manage.</p>
+                                <div className="input-group">
+                                    <input type="email" name="email" id="email" className="" placeholder="(123) 4567-8901" />
+                                    <span className="input-group-btn">
+                                        <button className="btn" type="submit">Text link</button>
+                                    </span>
+                                </div>
                         </div>
                         <div className="col-md-6">
                             <img src={Mobile} alt="alternative" className="hero1-img" />

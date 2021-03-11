@@ -78,7 +78,7 @@ const Home = () => {
                                         <a className="popup-youtube" href={"https://www.youtube.com"} datatype="video" >     
                                             <img className="img-fluid hero4-img" src={BgImg} alt="alternative" />
                                             <span className="video-play-button">
-                                            <img className="hero4play-img" src={Play} alt="alternative" />
+                                                <img className="hero4play-img" src={Play} alt="alternative" /> WATCH VIDEO
                                             </span>
                                         </a>
                                     </div>

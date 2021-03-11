@@ -2,10 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "./style.css";
 
-import { FiChevronDown } from "react-icons/fi";
 import Logo from "../../images/LandkitImg.svg";
-import RubyHR from "../../images/IconHR.png";
-import RubyAcademy from "../../images/IconAcad.png";
 
 const Topbar = () => {
 
@@ -24,29 +21,24 @@ const Topbar = () => {
                         <div id="navbarNavDropdown" className="navbar-collapse collapse">
                             <ul className="navbar-nav mx-auto">
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">Platform</Link>  
+                                <Link className="nav-link" to="/" data-toggle="dropdown">Landings</Link>  
                             </li><br />
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">About Us</Link>
+                                <Link className="nav-link" to="/" data-toggle="dropdown">Pages</Link>
                             </li><br />
                             <li className="nav-item dropdown">
-                                <Link className="nav-link" to="/" data-toggle="dropdown">Resources <FiChevronDown /></Link>
-                                <div className="dropdown-menu">
-                                    <Link to="/" className="dropdown-item">eBooks</Link>
-                                    <Link to="https://courses.salesruby.com/" className="dropdown-item">Ruby Courses</Link>
-                                    <Link to="/" className="dropdown-item">Sales Evaluation Tool</Link>   
-                                </div>
+                                <Link className="nav-link" to="/" data-toggle="dropdown">Account</Link>
                             </li><br />
                             <li className="nav-item">
-                                <Link className="nav-link" to="/pricing">Pricing</Link>
+                                <Link className="nav-link" to="/pricing">Documentation</Link>
                             </li><br />
                             </ul>
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-btn1" href="/">Log In</Link>
+                                    <Link className="nav-btn1" href="/">Documentation</Link>
                                 </li><br />
                                 <li className="nav-item">
-                                    <Link className="nav-btn" href="/">Request a demo</Link>
+                                    <Link className="nav-btn" href="/">Buy now</Link>
                                 </li><br />
                             </ul>
                         </div>

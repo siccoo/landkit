@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./style.css";
 
 import Logo from "../../images/LandkitImg.svg";
@@ -17,7 +17,14 @@ const Footer = () => {
                         
                     </div>
                     <div className="row">
-                        <div className="col-md-2"></div>
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10">
+                            <hr />
+                        </div>
+                        <div className="col-md-1"></div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-1"></div>
                         <div className="col-md-2">
                             <img src={Logo} alt='Landkit' className="footer-logo" />
                             <p>A better way to build.</p>
@@ -29,127 +36,83 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-md-2">
-                            <h6>Product</h6>
+                            <h6>Products</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Features</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Page Builder</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Enterprise</a>
+                                    <a href="/" className="footer-list">UI Kit</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Security</a>
+                                    <a href="/" className="footer-list">Styleguide</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Trust</a>
+                                    <a href="/" className="footer-list">Documentation</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Customer Stories</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Pricing</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Integrations</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Oneburner Partners</a>
+                                    <a href="/" className="footer-list">Changelog</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-2">
-                            <h6>Company</h6>
+                            <h6>Services</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">About Us</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Documentation</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Contact Us</a>
+                                    <a href="/" className="footer-list">Changelog</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Careers</a>
+                                    <a href="/" className="footer-list">Page Builder</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">In the News</a>
+                                    <a href="/" className="footer-list">UI Kit</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-2">
-                            <h6>Oneburner for teams</h6>
+                            <h6>Connect</h6>
                             <ul className="unorder-list">
                                 <li className="list-items">
-                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Engineering</a>
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Page Builder</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Financial Services</a>
+                                    <a href="/" className="footer-list">UI Kit</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">CRM and Sales</a>
+                                    <a href="/" className="footer-list">Styleguide</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">IT</a>
+                                    <a href="/" className="footer-list">Documentation</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Marketing </a>
+                                    <a href="/" className="footer-list">Changelog</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Customer Support </a>
+                                    <a href="/" className="footer-list">Documentation</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Human Resources </a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Project Management </a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Remote Work </a>
+                                    <a href="/" className="footer-list">Changelog</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col-md-2">
-                            <h6>Resources</h6>
+                            <h6>Legal</h6>
                             <ul className="unorder-list">
-                                <li className="list-items">
-                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Community</a>
+                            <li className="list-items">
+                                    <a href="/" target="_blank" rel="noreferrer" className="footer-list">Documentation</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Guides</a>
+                                    <a href="/" className="footer-list">Changelog</a>
                                 </li>
                                 <li className="list-items">
-                                    <a href="/" className="footer-list">Templates</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Video Tutorials</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Professional Services</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Knowledge Base</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Blog</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Webinars</a>
-                                </li>
-                                <li className="list-items">
-                                    <a href="/" className="footer-list">Find a Partner</a>
+                                    <a href="/" className="footer-list">Page Builder</a>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-md-2"></div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-12">
-                            <hr />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p>© 2020 Oneburner.com | All Rights Reserved. </p>
-                        </div>
-                        <div className="col-md-6"></div>
+                        <div className="col-md-1"></div>
                     </div>
                 </div>
             </section>

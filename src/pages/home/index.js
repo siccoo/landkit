@@ -73,7 +73,7 @@ const Home = () => {
             <section className="hero4">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-12">
+                        <div className="col">
                             <div className="image-wrapper">
                                     <div className="video-wrapper">
                                         <a className="popup-youtube" href={"https://www.youtube.com"} datatype="video" >     

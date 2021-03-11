@@ -1,2 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Pavanam&display=swap');
 
+.footer-section {
+    background: #fff;
+    padding: 30px 0 50px 0;
+}
+
+.footer-logo {
+    width: 74px;
+    height: 17.77px;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-logo {
+        width: 54px;
+        height: 15px;
+    }
+}
+
+.footer-section p {
+    font-family: "Pavanam";
+    font-size: 17px;
+    line-height: 26px;
+    color: #506690;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-section p {
+       font-size: 14px; 
+       line-height: 22px;
+    }
+}
+
+/* .footer-section .social_info {
+        display: flex;
+      justify-content: flex-end;
+      padding: 1rem 0 0 0 0;
+}
+
+.social_info .footer-icon {
+        background-color: #fff;
+        color:  #454545;   
+        width: 2.5rem;
+        height: 2.5rem;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+} */
+
+.footer-section h6 {
+    font-family: "Pavanam";
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color:  #506690;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-section h6 {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
+.footer-section .unorder-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section .footer-list {
+    font-family: "Pavanam";
+    font-size: 14px;
+    line-height: 24px;
+    color: #869AB8 !important;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-section .footer-list {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

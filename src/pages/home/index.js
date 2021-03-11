@@ -1,5 +1,6 @@
 import React from 'react';
 import Topbar from "../../components/navbar/index";
+import Footer from "../../components/footer/index";
 import "./style.css";
 
 import Mobile from "../../images/Phones.svg";
@@ -86,6 +87,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+
+            <section>
+                <Footer />
             </section>
         </div>
     )

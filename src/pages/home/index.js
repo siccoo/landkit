@@ -5,6 +5,8 @@ import "./style.css";
 import Mobile from "../../images/Phones.svg";
 import Staff from "../../images/CompImg.svg";
 import RealTime from "../../images/Converse.svg"
+import Play from "../../images/playBtn.svg";
+import BgImg from "../../images/BgImg.svg"
 
 const Home = () => {
     return (
@@ -57,11 +59,30 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 align-self-center">
-                                <h3>Chat with your friends while watching together.</h3>
+                                <h3>Chat with your friends <br/>while watching together.</h3>
                                 <p>Forward-thinking businesses use Timekit to imagine, <br/>design and manage the perfect scheduling flows to <br />imagine, design and manage.</p>
                         </div>
                         <div className="col-md-6">
                             <img src={RealTime} alt="alternative" className="hero-img" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="hero4">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="image-wrapper">
+                                    <div className="video-wrapper">
+                                        <a className="popup-youtube" href={"https://www.youtube.com"} datatype="video" >     
+                                            <img className="img-fluid hero4-img" src={BgImg} alt="alternative" />
+                                            <span className="video-play-button">
+                                            <img className="hero4play-img" src={Play} alt="alternative" />
+                                            </span>
+                                        </a>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>

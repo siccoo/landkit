@@ -19,7 +19,7 @@ const Topbar = () => {
                         <span className="line"></span>
                     </button>
                         <div id="navbarNavDropdown" className="navbar-collapse collapse">
-                            <ul className="navbar-nav mx-auto">
+                            <ul className="navbar-nav ml-auto">
                             <li className="nav-item dropdown">
                                 <Link className="nav-link" to="/" data-toggle="dropdown">Landings</Link>  
                             </li><br />

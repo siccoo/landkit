@@ -17,6 +17,19 @@
     }
 }
 
+.footer-section h5 {
+    font-family: "Pavanam";
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    color: #161C2D;
+}
+
+.footer-section .playstore-images {
+    float: right;
+}
+
 .footer-section p {
     font-family: "Pavanam";
     font-size: 17px;
@@ -31,21 +44,9 @@
     }
 }
 
-/* .footer-section .social_info {
-        display: flex;
-      justify-content: flex-end;
-      padding: 1rem 0 0 0 0;
+.footer-section hr {
+    background: #F1F4F8;
 }
-
-.social_info .footer-icon {
-        background-color: #fff;
-        color:  #454545;   
-        width: 2.5rem;
-        height: 2.5rem;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-} */
 
 .footer-section h6 {
     font-family: "Pavanam";

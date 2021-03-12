@@ -7,7 +7,7 @@ import Mobile from "../../images/Phones.svg";
 import Staff from "../../images/CompImg.svg";
 import RealTime from "../../images/Converse.svg"
 import Play from "../../images/playBtn.svg";
-import BgImg from "../../images/BgImg.svg"
+import BgImg from "../../images/BgImg.svg";
 
 const Home = () => {
     return (
@@ -73,17 +73,18 @@ const Home = () => {
             <section className="hero4">
                 <div className="container">
                     <div className="row">
-                        <div className="col">
-                            <div className="image-wrapper">
-                                    <div className="video-wrapper">
-                                        <a className="popup-youtube" href={"https://www.youtube.com"} datatype="video" >     
-                                            <img className="img-fluid hero4-img" src={BgImg} alt="alternative" />
-                                            <span className="video-play-button">
-                                                <img className="hero4play-img" src={Play} alt="alternative" /> WATCH VIDEO
-                                            </span>
-                                        </a>
-                                    </div>
-                            </div>
+                        <div className="col-lg-12">
+                        
+                            <div class="image-container">
+                                <div class="video-wrapper">
+                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=DS-2CdZHJGA" data-effect="fadeIn">
+                                        <img class="img-fluid" src={BgImg} alt="alternative" />
+                                        <span class="video-play-button">
+                                            <img class="" src={Play} alt="alternative" /> WATCH VIDEO
+                                        </span>
+                                    </a>
+                                </div> 
+                            </div> 
                         </div>
                     </div>
                 </div>

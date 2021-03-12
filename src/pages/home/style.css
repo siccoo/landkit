@@ -175,7 +175,7 @@
     }
 }
 
-.hero1 p {
+.hero3 p {
     max-width: 500px;
     font-family: "Pavanam";
     font-size: 19px;
@@ -184,7 +184,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .hero1 p {
+    .hero3 p {
         font-size: 12px;
         line-height: 16px;
     }

@@ -69,6 +69,19 @@
     }
 }
 
+.hero1 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: "Pavanam";
+    font-size: 14px;
+    color: #506690;
+    /* margin-right: 55px; */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 10px;
+      }
+}
+
 .hero1 .btn {
     background: #335EEA;
     border-radius: 6px;

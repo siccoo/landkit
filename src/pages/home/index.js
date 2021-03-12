@@ -71,23 +71,16 @@ const Home = () => {
             </section>
 
             <section className="hero4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                        
-                            <div class="image-container">
-                                <div class="video-wrapper">
-                                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=DS-2CdZHJGA" data-effect="fadeIn">
-                                        <img class="img-fluid" src={BgImg} alt="alternative" />
-                                        <span class="video-play-button">
-                                            <img class="" src={Play} alt="alternative" /> WATCH VIDEO
-                                        </span>
-                                    </a>
-                                </div> 
-                            </div> 
-                        </div>
-                    </div>
-                </div>
+                <div className="image-container">
+                    <div className="video-wrapper">
+                        <a className="popup-youtube" href="https://www.youtube.com" data-effect="fadeIn">
+                            <img className="img-fluid" src={BgImg} alt="alternative" />
+                                <span className="video-play-button">
+                                    <img className="" src={Play} alt="alternative" />&nbsp; WATCH VIDEO
+                                </span>
+                        </a>
+                    </div> 
+                </div> 
             </section>
 
             <section>

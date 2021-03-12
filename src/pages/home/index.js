@@ -47,7 +47,7 @@ const Home = () => {
                                 <p>Forward-thinking businesses use Timekit to imagine, <br/>design and manage the perfect scheduling flows to <br />imagine, design and manage.</p>
                                 <div className="input-group">
                                     {/* <input type="email" name="email" id="email" className="" placeholder="(123) 4567-8901" /> */}
-                                    <span className="input-group-btn px-3">
+                                    <span className="input-group-btn ml-5">
                                         <button className="btn" type="submit">View show list</button>
                                     </span>
                                 </div>
